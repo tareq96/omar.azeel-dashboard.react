@@ -50,19 +50,6 @@ COPY --from=builder /app/dist /usr/share/nginx/html
 # Copy any static assets that might not be in dist
 COPY --from=builder /app/public /usr/share/nginx/html
 
-# Create non-root user for better security
-RUN addgroup -g 1001 -S nodejs && \
-    adduser -S nodejs -u 1001 && \
-    chown -R nodejs:nodejs /usr/share/nginx/html && \
-    chown -R nodejs:nodejs /var/cache/nginx && \
-    chown -R nodejs:nodejs /var/log/nginx && \
-    chown -R nodejs:nodejs /etc/nginx/conf.d && \
-    touch /var/run/nginx.pid && \
-    chown -R nodejs:nodejs /var/run/nginx.pid
-
-# Switch to non-root user
-USER nodejs
-
 # Expose port 80
 EXPOSE 80
 
