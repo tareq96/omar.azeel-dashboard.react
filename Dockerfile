@@ -47,15 +47,20 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # Copy built assets from builder stage
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Copy any static assets that might not be in dist
-COPY --from=builder /app/public /usr/share/nginx/html
+# Verify files were copied (for debugging)
+RUN ls -la /usr/share/nginx/html && \
+    echo "Files copied successfully" && \
+    test -f /usr/share/nginx/html/index.html || (echo "ERROR: index.html not found!" && exit 1)
+
+# Test NGINX configuration
+RUN nginx -t
 
 # Expose port 80
 EXPOSE 80
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:80/ || exit 1
+  CMD curl -f http://localhost:80/health || exit 1
 
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
