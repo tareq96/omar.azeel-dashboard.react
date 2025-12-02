@@ -1,0 +1,1404 @@
+{
+  "common": {
+    "submit": "حفظ",
+    "noResults": "لا يوجد نتائج",
+    "backToList": "العودة إلى القائمة",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "confirmDelete": "تأكيد الحذف",
+    "deleteSuccess": "تم الحذف بنجاح",
+    "save": "حفظ",
+    "confirm": "رسالة تأكيد",
+    "success": "نجاح",
+    "failed": "فشل",
+    "download": "تحميل",
+    "loading": "جار التحميل...",
+    "saving": "جار الحفظ...",
+    "deleting": "جار الحذف...",
+    "saved": "تم الحفظ",
+    "cancel": "تراجع",
+    "back": "تراجع",
+    "next": "التالي",
+    "cancelSelection": "إلغاء التحديد",
+    "confirmAdd": "تأكيد الإضافة",
+    "actions": {
+      "confirm": "تأكيد"
+    },
+    "soon": "قريبا",
+    "preview": "معاينة",
+    "export": {
+      "button": "تصدير",
+      "exporting": "جاري التصدير...",
+      "success": "تم تصدير البيانات بنجاح!",
+      "error": "فشل تصدير البيانات. حاول مرة أخرى."
+    },
+    "apply": "تطبيق",
+    "select": "إختر",
+    "hide": "إخفاء",
+    "text": "نص",
+    "email": "بريد إلكتروني",
+    "number": "رقم",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "password": "كلمة المرور",
+    "user": "المستخدم",
+    "required": "هذا الحقل مطلوب",
+    "requiredForCompleteProfile": "مطلوب لإكمال الملف الشخصي",
+    "close": "إغلاق",
+    "clearFilter": "الغاء الفلتر",
+    "title": "العنوان",
+    "url": "الرابط",
+    "description": "الوصف",
+    "content": "المحتوى",
+    "name": "الاسم",
+    "create": "إنشاء",
+    "add": "إضافة",
+    "note": "ملاحظة",
+    "link": "رابط",
+    "favorite": "مفضلة",
+    "sort": "ترتيب",
+    "addSorting": "إضافة ترتيب",
+    "resetSorting": "ألغاء الترتيب",
+    "asc": "تصاعدي",
+    "desc": "تنازلي",
+    "filter": "تصفية",
+    "all": "الكل",
+    "allTypes": "كل الانواع",
+    "notes": "ملاحظات",
+    "order": {
+      "manual": "يدوي",
+      "recent": "الأحدث",
+      "oldest": "الأقدم",
+      "name": "الاسم",
+      "size": "الحجم"
+    },
+    "deleteConfirm": "هل أنت متأكد؟",
+    "downloading": "جاري التحميل...",
+    "errors": {
+      "downloadFailed": "خطأ اثناء التحميل، الرجاء المحاولة لاحقا."
+    },
+    "validations": {
+      "email": "صيغة الايميل غير صحيحة"
+    },
+    "fullscreen": "ملء الشاشة",
+    "reset": "إعادة تعيين",
+    "selectAll": "تحديد الكل",
+    "search": "بحث",
+    "previous": "السابق",
+    "notSet": "غير محدد",
+    "moreCount": "+{{count}} أخرى",
+    "none": "لا شيء",
+    "days": "أيام",
+    "yes": "نعم",
+    "no": "لا"
+  },
+  "calendar": {
+    "selectDate": "اختر التاريخ"
+  },
+  "search": "بحث...",
+  "perPage": "لكل صفحة",
+  "delete": "حذف",
+  "sidebar": {
+    "languageSwitcher": {
+      "label": "اللغة",
+      "en": "الإنجليزية",
+      "ar": "العربية"
+    },
+    "themeSwitcher": {
+      "label": "المظهر",
+      "light": "فاتح",
+      "dark": "داكن",
+      "system": "النظام"
+    },
+    "general": {
+      "title": "عام",
+      "items": {
+        "dashboard": "لوحة التحكم"
+      }
+    },
+    "operations": {
+      "title": "العمليات",
+      "items": {
+        "orders": "الطلبات",
+        "trips": "الرحلات",
+        "items": "العناصر",
+        "lockers": "الخزائن",
+        "lockersGeolocation": "مواقع الخزائن"
+      }
+    },
+    "userManagement": {
+      "title": "إدارة المستخدمين",
+      "items": {
+        "adminUsers": "مشرفون",
+        "customers": "العملاء",
+        "drivers": "السائقون",
+        "memberships": "الاشتراكات",
+        "tickets": "التذاكر",
+        "addTicket": "إضافة تذكرة"
+      }
+    },
+    "information": {
+      "title": "المعلومات",
+      "items": {
+        "addresses": "العناوين",
+        "sms": "الرسائل القصيرة"
+      }
+    },
+    "packaging": {
+      "title": "التغليف",
+      "items": {
+        "bundles": "الحزم"
+      }
+    },
+    "payment": {
+      "title": "الدفع",
+      "items": {
+        "topups": "بطاقات الشحن",
+        "promos": "رموز الخصم",
+        "credits": "الأرصدة",
+        "creditCards": "بطاقات الائتمان"
+      }
+    },
+    "accounting": {
+      "title": "المحاسبة",
+      "items": {
+        "invoices": "الفواتير"
+      }
+    }
+  },
+  "header": {
+    "dashboard": "لوحة التحكم",
+    "adminUsers": "مشرفون",
+    "customers": "العملاء",
+    "drivers": "السائقون",
+    "trips": "الرحلات",
+    "memberships": "الاشتراكات",
+    "tickets": "التذاكر",
+    "createTicket": "إضافة تذكرة",
+    "auth": "المصادقة",
+    "login": "تسجيل الدخول",
+    "addresses": "العناوين",
+    "messages": "الرسائل القصيرة",
+    "bundles": "الحزم",
+    "topups": "بطاقات الشحن",
+    "promos": "رموز الخصم",
+    "credits": "الأرصدة",
+    "creditCards": "بطاقات الائتمان",
+    "invoices": "الفواتير",
+    "items": "العناصر",
+    "lockers": "الخزائن"
+  },
+  "navUser": {
+    "account": "الحساب",
+    "notifications": "الإشعارات",
+    "logout": "تسجيل الخروج",
+    "loggingOut": "جارٍ تسجيل الخروج..."
+  },
+  "user": {
+    "unknown": "مستخدم"
+  },
+  "users": {
+    "fields": {
+      "zones": "المناطق"
+    },
+    "addDialog": {
+      "trigger": "إضافة مستخدم",
+      "title": "إضافة مستخدم",
+      "step": {
+        "info": "معلومات المستخدم",
+        "image": "صورة الملف الشخصي",
+        "permissions": "الصلاحيات",
+        "confirmation": "التأكيد"
+      },
+      "fields": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "mobile": "الموبايل",
+        "type": "نوع المستخدم",
+        "status": "الحالة",
+        "image": "صورة الملف الشخصي",
+        "jobTitle": "المسمى الوظيفي",
+        "password": "كلمة المرور",
+        "passwordConfirmation": "تأكيد كلمة المرور",
+        "permissions": "الصلاحيات"
+      },
+      "placeholders": {
+        "name": "أدخل الاسم الكامل",
+        "email": "أدخل البريد الإلكتروني",
+        "mobile": "أدخل رقم الموبايل",
+        "type": "اختر نوع المستخدم",
+        "status": "اختر الحالة",
+        "image": "أدخل رابط الصورة",
+        "jobTitle": "أدخل المسمى الوظيفي (اختياري)",
+        "password": "أدخل كلمة المرور (8 أحرف على الأقل)",
+        "passwordConfirmation": "أعد إدخال كلمة المرور",
+        "permissions": "اختر الصلاحيات"
+      },
+      "types": {
+        "admin": "مشرف",
+        "customer": "عميل",
+        "driver": "سائق",
+        "walkin": "زائر"
+      },
+      "statuses": {
+        "active": "نشط",
+        "inactive": "غير نشط"
+      },
+      "validations": {
+        "passwordMinLength": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل",
+        "passwordMismatch": "كلمات المرور غير متطابقة",
+        "mobileFormat": "يجب أن يتكون رقم الموبايل من 10 أرقام بالضبط",
+        "permissionsRequired": "يجب اختيار صلاحية واحدة على الأقل للمستخدمين المشرفين"
+      },
+      "permissions": {
+        "notApplicable": "الصلاحيات متاحة فقط للمستخدمين المشرفين",
+        "description": "اختر الصلاحيات لهذا المستخدم المشرف"
+      },
+      "imageUploadDescription": "تحميل صورة الملف الشخصي (اختياري)",
+      "confirmation": {
+        "title": "مراجعة بيانات المستخدم",
+        "create": "إنشاء مستخدم",
+        "permissionsCount": "تم اختيار {{count}} صلاحية/صلاحيات"
+      },
+      "success": "تم إنشاء المستخدم بنجاح",
+      "error": "فشل إنشاء المستخدم"
+    },
+    "editDialog": {
+      "title": "تعديل المستخدم",
+      "success": "تم تحديث المستخدم بنجاح",
+      "error": "فشل تحديث المستخدم",
+      "placeholders": {
+        "password": "اتركه فارغاً للاحتفاظ بكلمة المرور الحالية",
+        "passwordConfirmation": "تأكيد كلمة المرور الجديدة"
+      },
+      "confirmation": {
+        "update": "تحديث المستخدم"
+      }
+    }
+  },
+  "permissions": {
+    "super_admin": "مشرف رئيسي",
+    "orders_create": "إنشاء الطلبات",
+    "orders_update": "تحديث الطلبات",
+    "orders_delete": "حذف الطلبات",
+    "orders_view": "عرض الطلبات",
+    "invoices_view": "عرض الفواتير",
+    "customers_create": "إنشاء العملاء",
+    "customers_update": "تحديث العملاء",
+    "customers_view": "عرض العملاء",
+    "drivers_create": "إنشاء السائقين",
+    "drivers_update": "تحديث السائقين",
+    "drivers_view": "عرض السائقين",
+    "address_create": "إنشاء العنوان",
+    "send_sms": "إرسال رسائل SMS",
+    "item_create": "إنشاء العناصر",
+    "item_view": "عرض العناصر",
+    "item_delete": "حذف العناصر",
+    "promocode_create": "إنشاء رموز الخصم",
+    "credits_show": "عرض الأرصدة",
+    "topup_create": "إنشاء بطاقات الشحن",
+    "settings_management": "إدارة الإعدادات",
+    "notifications": "الإشعارات",
+    "locker_management": "إدارة الخزائن",
+    "trip_management": "إدارة الرحلات",
+    "bundle_management": "إدارة الحزم",
+    "help_desk_management": "إدارة مكتب المساعدة",
+    "memberships_view": "عرض الاشتراكات",
+    "tickets_view": "عرض التذاكر",
+    "tickets_add": "إضافة التذاكر",
+    "locker_geolocation_view": "عرض مواقع الخزائن"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "description": "إدارة تفضيلات حسابك.",
+    "currentInstitute": "المؤسسة الحالية",
+    "changeInstitute": "تغيير المؤسسة",
+    "selectInstitute": "اختر مؤسسة",
+    "instituteHelp": "سيؤدي اختيار مؤسسة جديدة إلى تحديث السياق الحالي الخاص بك عبر التطبيق.",
+    "none": "لا شيء",
+    "applySuccess": "تم اختيار المؤسسة بنجاح"
+  },
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "description": "ادخل إلى حسابك",
+      "email": "البريد الإلكتروني ",
+      "password": "كلمة المرور",
+      "rememberMe": "تذكرني",
+      "signIn": "تسجيل الدخول",
+      "loggingIn": "جاري تسجيل الدخول...",
+      "success": "تم تسجيل الدخول بنجاح",
+      "failed": "فشل تسجيل الدخول",
+      "forgotPassword": "هل نسيت كلمة المرور؟",
+      "emailPlaceholder": "m@example.com",
+      "usernameRequired": "البريد الإلكتروني مطلوب",
+      "passwordRequired": "كلمة المرور مطلوبة"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "subtitle": "مرحباً بعودتك! إليك نظرة عامة على منصتك التعليمية.",
+    "stats": {
+      "totalArticles": "إجمالي المقالات",
+      "activeUsers": "المستخدمون النشطون",
+      "courseModules": "وحدات الدورة",
+      "engagementRate": "معدل التفاعل",
+      "fromLastMonth": "من الشهر الماضي",
+      "fromLastWeek": "من الأسبوع الماضي",
+      "newThisWeek": "جديد هذا الأسبوع"
+    },
+    "summary": {
+      "filters": {
+        "dateRange": "نطاق التاريخ"
+      },
+      "tabs": {
+        "mobile": "الجوال",
+        "walkin": "زيارة مباشرة"
+      },
+      "cards": {
+        "activeLockers": "الخزائن النشطة",
+        "activeRecurringCustomers": "العملاء المتكررون النشطون",
+        "orders": {
+          "received": "الطلبات المستلمة",
+          "submitted": "الطلبات المقدمة",
+          "dispatched": "الطلبات المرسلة",
+          "inKitchen": "الطلبات في المطبخ",
+          "fake": "طلبات وهمية"
+        },
+        "totals": {
+          "topup": "إجمالي الشحن",
+          "creditCard": "إجمالي بطاقات الائتمان",
+          "credit": "إجمالي الرصيد"
+        }
+      },
+      "errorTitle": "فشل تحميل ملخص لوحة التحكم",
+      "loadingCard": "جاري تحميل المؤشر {{index}}..."
+    }
+  },
+  "lockersTable": {
+    "columns": {
+      "id": { "label": "المعرف" },
+      "status": {
+        "label": "الحالة",
+        "options": {
+          "active": "نشط",
+          "inactive": "غير نشط",
+          "requested": "مطلوب",
+          "installed": "مركب",
+          "suspend": "معلق"
+        }
+      },
+      "code": { "label": "الرمز" },
+      "user": { "label": "المستخدم" },
+      "address": { "label": "العنوان" },
+      "actions": {
+        "label": "الإجراءات",
+        "drawerTitle": "إجراءات الخزانة",
+        "options": { "edit": { "label": "تعديل" } }
+      }
+    }
+  },
+  "trips": {
+    "tabs": {
+      "orderPickupDropoff": "أوامر - الاستلام والتسليم",
+      "lockerInstallation": "تركيب الخزائن",
+      "topups": "بطاقات الشحن",
+      "lockerMaintenance": "صيانة الخزائن",
+      "lockerRemoval": "إزالة الخزائن"
+    },
+    "details": {
+      "tabs": {
+        "general": "عام",
+        "allOrders": "كل الطلبات",
+        "tripAudits": "سجلات الرحلة"
+      },
+      "general": {
+        "description": "تحرير بيانات الرحلة",
+        "prefixed": "بيانات مُسبقة (للقراءة فقط)",
+        "prefixedTitle": "الكود والمسار",
+        "noLocation": "لا توجد بيانات موقع"
+      }
+    },
+    "addDialog": {
+      "trigger": "إضافة رحلة",
+      "title": "إضافة رحلة",
+      "step": {
+        "driver": "السائق",
+        "confirmation": "التأكيد"
+      },
+      "loadingDrivers": "جارٍ تحميل السائقين...",
+      "selectDriver": "اختر سائقًا",
+      "willBeGenerated": "سيتم إنشاؤه",
+      "success": "تم إنشاء الرحلة بنجاح",
+      "error": "فشل إنشاء الرحلة"
+    },
+    "deleteDialog": {
+      "title": "حذف رحلة",
+      "description": "هل أنت متأكد أنك تريد حذف الرحلة {{code}}؟",
+      "confirmLabel": "حذف",
+      "deletingLabel": "جار الحذف...",
+      "cancelLabel": "إلغاء",
+      "toast": {
+        "success": "تم حذف الرحلة بنجاح",
+        "error": "فشل حذف الرحلة"
+      }
+    },
+    "fields": {
+      "driver": "السائق:",
+      "code": "الكود:",
+      "path": "المسار:",
+      "startedAt": "وقت البدء:",
+      "endedAt": "وقت الانتهاء:",
+      "pickupOrders": "طلبات الاستلام",
+      "dropOffOrders": "طلبات التسليم",
+      "status": "الحالة:",
+      "lat": { "label": "خط العرض" },
+      "lng": { "label": "خط الطول" }
+    },
+    "orders": {
+      "sections": {
+        "pickup": "طلبات الاستلام",
+        "tickets": "التذاكر"
+      },
+      "columns": {
+        "customer": { "label": "العميل" },
+        "address": { "label": "العنوان" }
+      }
+    },
+    "audits": {
+      "columns": {
+        "event": {
+          "label": "الحدث",
+          "options": {
+            "Created": "تم الإنشاء",
+            "Updated": "تم التحديث",
+            "Deleted": "تم الحذف",
+            "Restored": "تم الاستعادة"
+          }
+        },
+        "user": { "label": "المستخدم" }
+      }
+    },
+    "status": {
+      "pending": "قيد الانتظار"
+    },
+    "actions": {
+      "createTrip": "إنشاء رحلة"
+    }
+  },
+
+  "itemsTable": {
+    "columns": {
+      "icon": { "label": "أيقونة" },
+      "name": { "label": "الاسم" },
+      "id": { "label": "المعرف" },
+      "priceIron": { "label": "السعر (كي)" },
+      "priceDryClean": { "label": "السعر (تنظيف جاف)" },
+      "actions": {
+        "label": "الإجراءات",
+        "drawerTitle": "إجراءات العنصر",
+        "options": { "edit": { "label": "تعديل" } }
+      }
+    }
+  },
+  "ordersTable": {
+    "columns": {
+      "status": {
+        "options": {
+          "Submitted": "مقدمة"
+        }
+      }
+    }
+  },
+  "tripsTable": {
+    "columns": {
+      "code": { "label": "الكود" },
+      "driver": { "label": "السائق" },
+      "date": { "label": "التاريخ" },
+      "actions": {
+        "label": "الإجراءات",
+        "drawerTitle": "إجراءات الرحلة",
+        "options": { "edit": { "label": "تعديل" } }
+      },
+      "status": {
+        "label": "الحالة",
+        "options": {
+          "Pending": "قيد الانتظار",
+          "InProgress": "قيد التنفيذ",
+          "Completed": "مكتمل"
+        }
+      }
+    }
+  },
+  "api": {
+    "unknownError": "حدث خطأ غير متوقع.",
+    "errors": {
+      "something_went_wrong": "حصل خطأ ما, الرجاء المحاولة لاحقا",
+      "invalid_credentials": "إسم المستخدم أو كلمة المرور خاطئة!",
+      "driver_pending_trip": "السائق لديه رحلة قيد الانتظار بالفعل."
+    }
+  },
+  "dataTable": {
+    "viewOptions": {
+      "title": "عرض",
+      "noColumnsFound": "لا يوجد اعمدة",
+      "searchPlaceholder": "ابحث...",
+      "reorderHandleAriaLabel": "تغيير ترتيب العمود"
+    },
+    "filters": {
+      "reset": "إلغاء",
+      "placeholder": "ابحث في {{fieldName}}..."
+    },
+    "noResults": "ليس هناك أية بيانات",
+    "pagination": {
+      "selectedRowsCountMessage": "تم اختيار {{selected}} من {{total}}",
+      "rowsPerPage": "عدد النتائج لكل صفحة ",
+      "page": "صفحة {{currentPage}} من {{totalPages}}"
+    },
+    "settings": {
+      "menu": "الإعدادات",
+      "reset": {
+        "title": "إعادة التعيين"
+      },
+      "orderVisibility": {
+        "title": "ترتيب وظهور الأعمدة"
+      }
+    },
+    "columns": {
+      "reset": "إعادة التعيين",
+      "resetAll": "إعادة الكل",
+      "resetSizes": "إعادة أحجام الأعمدة",
+      "resetVisibility": "إعادة الظهور",
+      "resetOrder": "إعادة ترتيب الأعمدة",
+      "showAll": "إظهار الكل"
+    }
+  },
+  "topupsTable": {
+    "columns": {
+      "number": { "label": "الرقم" },
+      "status": {
+        "label": "الحالة",
+        "options": {
+          "New": "جديد",
+          "Requested": "تم الطلب",
+          "Used": "مستخدمة"
+        }
+      },
+      "amount": { "label": "القيمة" },
+      "customer": { "label": "العميل" },
+      "staff": { "label": "الموظف" },
+      "chargeDate": { "label": "تاريخ الشحن" },
+      "createdAt": { "label": "تاريخ الإنشاء" },
+      "actions": { "label": "إجراءات", "drawerTitle": "إجراءات بطاقة الشحن" }
+    }
+  },
+  "promosTable": {
+    "columns": {
+      "name": { "label": "الاسم" },
+      "status": {
+        "label": "الحالة",
+        "options": {
+          "Pending": "قيد الانتظار",
+          "Active": "نشط",
+          "Inactive": "غير نشط"
+        }
+      },
+      "amount": { "label": "القيمة الثابتة" },
+      "percent": { "label": "النسبة" },
+      "beneficiaries": { "label": "المستفيدون" },
+      "startDate": { "label": "تاريخ البدء" },
+      "endDate": { "label": "تاريخ الانتهاء" },
+      "createdAt": { "label": "تاريخ الإنشاء" },
+      "actions": { "label": "الإجراءات", "drawerTitle": "إجراءات رمز الخصم" }
+    }
+  },
+  "usersTable": {
+    "columns": {
+      "name": {
+        "label": "الاسم"
+      },
+      "userName": {
+        "label": "إسم المستخدم"
+      },
+      "email": {
+        "label": "البريد الإلكتروني"
+      },
+      "type": {
+        "label": "الدور"
+      },
+      "status": {
+        "label": "الحالة",
+        "options": {
+          "active": "نشط",
+          "inactive": "غير نشط",
+          "pending": "معلّق"
+        }
+      },
+      "mobile": {
+        "label": "الموبايل"
+      },
+      "idc": {
+        "label": "رقم الهوية"
+      },
+      "createdAt": {
+        "label": "تاريخ الإنشاء"
+      },
+      "lastActivityAt": {
+        "label": "آخر نشاط"
+      },
+      "suspension": {
+        "label": "الإيقاف",
+        "toast": {
+          "success": "تم تحديث الإيقاف",
+          "error": "فشل تحديث الإيقاف",
+          "apiSuccess": "تم تحديث إيقاف العميل"
+        }
+      },
+      "actions": {
+        "label": "الإجراءات",
+        "drawerTitle": "إجراءات المستخدم",
+        "options": {
+          "profile": {
+            "label": "عرض الملف الشخصي"
+          },
+          "edit": {
+            "label": "تعديل"
+          },
+          "resetPassword": {
+            "label": "ضبط كلمة المرور"
+          },
+          "deactivate": {
+            "label": "تعطيل",
+            "confirmMessage": "هل أنت متأكد أنك تريد تعطيل المستخدم ({{name}})؟"
+          },
+          "activate": {
+            "label": "تفعيل",
+            "confirmMessage": "هل أنت متأكد أنك تريد اعادة تفعيل المستخدم ({{name}})؟"
+          }
+        }
+      }
+    },
+    "actions": {
+      "addMember": {
+        "title": "إضافة عضو",
+        "success": "تم إضافة العضو بنجاح!",
+        "modal": {
+          "firstname": "الاسم الأول",
+          "lastname": "الاسم الاخير",
+          "name": "إسم المستخدم",
+          "email": "البريد الالكتروني",
+          "mobile": "رقم الهاتف",
+          "password": "كلمة المرور"
+        }
+      },
+      "export": "تصدير الى Excel"
+    },
+    "export": {
+      "success": "تم تصدير قائمة المستخدمين بنجاح!",
+      "error": "فشل تصدير قائمة المستخدمين. حاول مرة أخرى."
+    }
+  },
+  "addressesTable": {
+    "columns": {
+      "address": { "label": "العنوان" },
+      "lat": { "label": "خط العرض" },
+      "lng": { "label": "خط الطول" },
+      "notes": { "label": "ملاحظات" },
+      "actions": { "label": "الإجراءات", "drawerTitle": "إجراءات العنوان" }
+    }
+  },
+  "membershipTable": {
+    "columns": {
+      "customerId": { "label": "رقم العميل" },
+      "area": { "label": "المنطقة" },
+      "bundle": { "label": "اسم الحزمة" },
+      "recurringDays": { "label": "أيام التكرار" },
+      "balance": { "label": "الرصيد" },
+      "remainingItems": { "label": "العناصر المتبقية" },
+      "activationDate": { "label": "تاريخ التفعيل" }
+    }
+  },
+  "ticketsTable": {
+    "columns": {
+      "details": { "label": "التفاصيل" },
+      "type": { "label": "نوع التذكرة" },
+      "assignee": { "label": "المسند إليه" },
+      "customer": { "label": "العميل" },
+      "creator": { "label": "أنشأ بواسطة" },
+      "status": {
+        "label": "الحالة",
+        "options": {
+          "To Do": "للتنفيذ",
+          "In Progress": "قيد التنفيذ",
+          "Done": "منجز",
+          "Canceled": "ملغاة"
+        }
+      },
+      "createdAt": { "label": "تاريخ الإنشاء" },
+      "updatedAt": { "label": "آخر تحديث" },
+      "actions": { "label": "الإجراءات", "drawerTitle": "إجراءات التذكرة" }
+    }
+  },
+  "messagesTable": {
+    "columns": {
+      "title": { "label": "العنوان" },
+      "body": { "label": "الرسالة" },
+      "type": {
+        "label": "النوع",
+        "options": {
+          "sms": "رسالة قصيرة",
+          "push_notification": "إشعار"
+        }
+      },
+      "customer_name": { "label": "اسم العميل" },
+      "customer_mobile": { "label": "موبايل العميل" },
+      "send_by_name": { "label": "المرسل" },
+      "created_at": { "label": "تاريخ الإنشاء" },
+      "message": { "label": "الرسالة" },
+      "customer": { "label": "العميل" },
+      "date": { "label": "التاريخ" }
+    }
+  },
+  "ticketsCreate": {
+    "title": "إضافة تذكرة",
+    "fields": {
+      "type": "نوع التذكرة",
+      "status": "الحالة",
+      "assignee": "المسند إليه",
+      "maintinanceAssignee": "المسند إليه",
+      "removalAssignee": "المسند إليه",
+      "recurringDaysAssignee": "المسند إليه",
+      "customer": "العميل",
+      "subject": "الموضوع"
+    },
+    "typeOptions": {
+      "Maintinance": "صيانة",
+      "Locker Removal": "إزالة الخزانة",
+      "Balance Adjustment": "تعديل الرصيد",
+      "Installation": "التركيب",
+      "Recurring Days": "أيام التكرار",
+      "Reminders": "تذكيرات"
+    },
+    "sections": {
+      "lockerRemoval": {
+        "title": "إزالة الخزانة",
+        "dateOfLockerRemoval": "تاريخ إزالة الخزانة",
+        "amountOfMoney": "المبلغ المطلوب دفعه"
+      },
+      "balanceAdjustment": {
+        "title": "تعديل الرصيد",
+        "amountToBeAdded": "المبلغ المطلوب إضافته",
+        "reasonOfMoney": "سبب المبلغ"
+      },
+      "installation": {
+        "title": "التركيب",
+        "geoLocation": "الموقع الجغرافي",
+        "subscriptionStartingDate": "تاريخ بدء الاشتراك",
+        "installationStartingDate": "تاريخ بدء التركيب",
+        "installationStartingTime": "وقت بدء التركيب",
+        "bundleName": "اسم الباقة"
+      }
+    },
+    "actions": {
+      "submit": "إرسال",
+      "backToList": "العودة إلى القائمة"
+    },
+    "toast": {
+      "success": "تم إنشاء التذكرة بنجاح",
+      "error": "فشل إنشاء التذكرة"
+    }
+  },
+  "customers": {
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "addDialog": {
+      "trigger": "إضافة عميل",
+      "title": "إضافة عميل",
+      "step": {
+        "info": "معلومات العميل",
+        "location": "الموقع",
+        "bundle": "الحزمة والاشتراك",
+        "image": "صورة الملف الشخصي",
+        "confirmation": "التأكيد"
+      },
+      "fields": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "mobile": "الموبايل",
+        "password": "كلمة المرور",
+        "passwordConfirmation": "تأكيد كلمة المرور",
+        "status": "الحالة",
+        "image": "صورة الملف الشخصي",
+        "homeZone": "منطقة المنزل",
+        "homeLat": "خط عرض المنزل",
+        "homeLng": "خط طول المنزل",
+        "workZone": "منطقة العمل",
+        "workLat": "خط عرض العمل",
+        "workLng": "خط طول العمل",
+        "bundle": "الحزمة",
+        "bundleName": "الاسم",
+        "bundlePrice": "السعر",
+        "bundleUpto": "حتى",
+        "bundleContinuous": "مستمر",
+        "gracePeriod": "فترة السماح (أيام)",
+        "activationDate": "تاريخ التفعيل",
+        "installationDate": "تاريخ التركيب",
+        "installationTime": "وقت التركيب"
+      },
+      "placeholders": {
+        "name": "أدخل اسم العميل",
+        "dynamicId": "أدخل رقم العميل (اختياري)",
+        "email": "أدخل البريد الإلكتروني",
+        "mobile": "أدخل رقم الموبايل",
+        "password": "أدخل كلمة المرور (8 أحرف على الأقل)",
+        "passwordConfirmation": "أعد إدخال كلمة المرور",
+        "status": "اختر الحالة",
+        "homeZone": "اختر منطقة المنزل",
+        "homeLat": "أدخل خط العرض (مثال: 24.7136)",
+        "homeLng": "أدخل خط الطول (مثال: 46.6753)",
+        "workZone": "اختر منطقة العمل (اختياري)",
+        "workLat": "أدخل خط العرض",
+        "workLng": "أدخل خط الطول",
+        "bundle": "اختر الحزمة (اختياري)",
+        "gracePeriod": "أدخل فترة السماح (0-365)",
+        "activationDate": "اختر تاريخ التفعيل",
+        "installationDate": "اختر تاريخ التركيب",
+        "installationTime": "اختر وقت التركيب",
+        "selectBundleFirst": "اختر الحزمة أولاً"
+      },
+      "sections": {
+        "homeAddress": "عنوان المنزل",
+        "workAddress": "عنوان العمل (اختياري)",
+        "bundleSelection": "اختيار الحزمة",
+        "dates": "التفعيل والتركيب"
+      },
+      "descriptions": {
+        "bundle": "اختر حزمة الاشتراك لهذا العميل",
+        "gracePeriod": "عدد الأيام قبل إيقاف الخدمة (0-365)"
+      },
+      "validations": {
+        "passwordMinLength": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل",
+        "passwordMismatch": "كلمات المرور غير متطابقة",
+        "mobileFormat": "يجب أن يتكون رقم الموبايل من 10 أرقام بالضبط",
+        "mobileTaken": "رقم الموبايل مستخدم بالفعل.",
+        "latRange": "يجب أن يكون خط العرض بين -90 و 90",
+        "lngRange": "يجب أن يكون خط الطول بين -180 و 180",
+        "gracePeriodMin": "يجب أن تكون فترة السماح 0 يوم على الأقل",
+        "gracePeriodMax": "لا يمكن أن تتجاوز فترة السماح 365 يوم",
+        "workLatRequired": "خط عرض العمل مطلوب عند اختيار منطقة العمل",
+        "workLngRequired": "خط طول العمل مطلوب عند اختيار منطقة العمل",
+        "activationDateAfterInstallation": "يجب أن يكون تاريخ التفعيل بعد أو يساوي تاريخ التركيب",
+        "homeZoneInvalid": "منطقة المنزل المحددة غير صالحة.",
+        "workZoneInvalid": "منطقة العمل المحددة غير صالحة."
+      },
+      "imageUploadDescription": "تحميل صورة الملف الشخصي للعميل (اختياري)",
+      "confirmation": {
+        "title": "مراجعة بيانات العميل",
+        "create": "إنشاء عميل"
+      },
+      "success": "تم إنشاء العميل بنجاح",
+      "error": "فشل إنشاء العميل"
+    }
+  },
+  "customersTable": {
+    "columns": {
+      "name": { "label": "الاسم" },
+      "customerId": { "label": "رقم العميل" },
+      "mobile": { "label": "الموبايل" },
+      "email": { "label": "البريد الإلكتروني" },
+      "area": { "label": "المنطقة" },
+      "registrationDate": { "label": "تاريخ التسجيل" },
+      "balance": { "label": "الرصيد" },
+      "status": {
+        "label": "الحالة",
+        "options": {
+          "active": "نشط",
+          "inactive": "غير نشط",
+          "pending": "معلّق"
+        }
+      },
+      "actions": {
+        "label": "الإجراءات",
+        "options": {
+          "edit": { "label": "تعديل" }
+        }
+      }
+    }
+  },
+  "groupsTable": {
+    "columns": {
+      "name": {
+        "label": "الاسم"
+      },
+      "privacy": {
+        "label": "الخصوصية",
+        "options": {
+          "Public": "عام",
+          "Private": "خاص"
+        }
+      },
+      "status": {
+        "label": "الحالة",
+        "options": {
+          "active": "نشط",
+          "inactive": "غير نشط",
+          "pending": "معلّق"
+        }
+      },
+      "type": {
+        "label": "النوع",
+        "options": {
+          "courses": "مساقات",
+          "other": "غير مساقات"
+        }
+      },
+      "membersCount": {
+        "label": "عدد الأعضاء"
+      },
+      "creator": {
+        "label": "أنشئ بواسطة"
+      },
+      "createdAt": {
+        "label": "تاريخ الإنشاء"
+      },
+      "latestActivityAt": {
+        "label": "آخر نشاط"
+      },
+      "actions": {
+        "label": "الإجراءات",
+        "options": {
+          "edit": {
+            "label": "تعديل"
+          },
+          "members": {
+            "label": "الأعضاء"
+          }
+        }
+      }
+    },
+    "actions": {
+      "edit": {
+        "title": "تعديل",
+        "success": "تم تعديل المجموعة بنجاح!",
+        "modal": {
+          "name": "اسم المجموعة",
+          "description": "وصف المجموعة",
+          "color": "اللون",
+          "privacy": "الخصوصية"
+        }
+      }
+    }
+  },
+  "groupMembersTable": {
+    "columns": {
+      "fullName": {
+        "label": "الاسم"
+      },
+      "email": {
+        "label": "البريد الالكتروني"
+      },
+      "groupRole": {
+        "label": "الدور"
+      },
+      "joinedDate": {
+        "label": "تاريخ الانضمام"
+      },
+      "lastActivityAt": {
+        "label": "آخر نشاط"
+      },
+      "actions": {
+        "label": "الإجراءات",
+        "options": {
+          "accept": {
+            "label": "قبول"
+          },
+          "reject": {
+            "label": "رفض"
+          }
+        }
+      }
+    }
+  },
+  "drivers": {
+    "tabs": {
+      "orderPickupDropoff": "الطلبات - الاستلام والتسليم",
+      "lockerInstallation": "الخزائن - تركيب خزائن",
+      "topups": "الشحن - بطاقات الشحن",
+      "lockerMaintenance": "الخزائن - صيانة الخزائن",
+      "lockerRemoval": "الخزائن - إزالة الخزائن"
+    }
+  },
+  "messagesForm": {
+    "title": "العنوان",
+    "titlePlaceholder": "أدخل العنوان",
+    "message": "الرسالة",
+    "messagePlaceholder": "اكتب رسالتك...",
+    "type": "النوع",
+    "typeOptions": {
+      "sms": "رسالة قصيرة",
+      "push": "إشعار"
+    },
+    "customers": "العملاء",
+    "selectCustomer": "اختر العميل...",
+    "searchCustomers": "ابحث عن العملاء...",
+    "loadingCustomers": "جارٍ تحميل العملاء...",
+    "noCustomers": "لا يوجد عملاء",
+    "send": "إرسال",
+    "sending": "جارٍ الإرسال...",
+    "clear": "مسح",
+    "toast": {
+      "success": "تم إرسال الرسائل بنجاح",
+      "error": "فشل إرسال الرسالة"
+    },
+    "errors": {
+      "sendFailed": "فشل إرسال الرسالة"
+    },
+    "validations": {
+      "titleRequired": "العنوان مطلوب",
+      "messageRequired": "الرسالة مطلوبة",
+      "typeRequired": "اختيار النوع مطلوب",
+      "customersRequired": "يجب اختيار عميل واحد على الأقل"
+    }
+  },
+  "bundlesTable": {
+    "columns": {
+      "name": { "label": "الاسم" },
+      "price": { "label": "السعر" },
+      "upto": { "label": "حتى" },
+      "gracePeriod": { "label": "فترة السماح" },
+      "actions": { "label": "الإجراءات", "drawerTitle": "إجراءات الحزمة" }
+    },
+    "actions": {
+      "manageItems": "إدارة العناصر"
+    }
+  },
+  "creditsTable": {
+    "columns": {
+      "date": { "label": "التاريخ" },
+      "customer": { "label": "العميل" },
+      "amount": { "label": "المبلغ" },
+      "type": {
+        "label": "النوع",
+        "options": {
+          "Credit": "رصيد",
+          "Credit_Card": "بطاقة ائتمان",
+          "PayPal": "باي بال",
+          "Invoice": "فاتورة",
+          "Topup": "شحن",
+          "Promo": "رمز خصم",
+          "Debit": "مدين"
+        }
+      },
+      "notes": { "label": "ملاحظات" }
+    }
+  },
+  "invoicesTable": {
+    "columns": {
+      "dueDate": { "label": "تاريخ الاستحقاق" },
+      "code": { "label": "الرمز" },
+      "user": { "label": "المستخدم" },
+      "order": { "label": "الطلب" },
+      "dueAmount": { "label": "المبلغ المستحق" },
+      "actions": { "label": "الإجراءات", "print": "طباعة" }
+    }
+  },
+  "items": {
+    "addDialog": {
+      "trigger": "إضافة عنصر",
+      "title": "إضافة عنصر",
+      "step": {
+        "info": "معلومات العنصر",
+        "price": "السعر",
+        "icon": "الأيقونة",
+        "confirmation": "التأكيد"
+      },
+      "success": "تم إنشاء العنصر بنجاح",
+      "error": "فشل إنشاء العنصر",
+      "iconPreviewEmpty": "لا توجد أيقونة محددة",
+      "iconUploadDescription": "ارفع أيقونة العنصر (اختياري)"
+    },
+    "editDialog": {
+      "title": "تعديل عنصر",
+      "step": {
+        "info": "معلومات العنصر",
+        "price": "السعر",
+        "icon": "الأيقونة",
+        "confirmation": "التأكيد"
+      },
+      "success": "تم تحديث العنصر بنجاح",
+      "error": "فشل تحديث العنصر",
+      "iconUploadDescription": "ارفع أيقونة جديدة (اختياري)"
+    },
+    "fields": {
+      "name": "الاسم",
+      "dynamic_id": "معرف Ghaseelcom",
+      "price_iron_only": "سعر كي فقط",
+      "price_dry_clean": "سعر تنظيف جاف فقط",
+      "icon": "الأيقونة"
+    },
+    "placeholders": {
+      "name": "أدخل الاسم",
+      "dynamic_id": "أدخل معرف Ghaseelcom",
+      "price_iron_only": "أدخل السعر",
+      "price_dry_clean": "أدخل السعر"
+    },
+    "actions": {
+      "createItem": "إنشاء عنصر",
+      "updateItem": "تحديث عنصر"
+    },
+    "deleteDialog": {
+      "title": "حذف عنصر",
+      "description": "هل أنت متأكد أنك تريد حذف العنصر {{name}}؟",
+      "confirmLabel": "حذف",
+      "deletingLabel": "جار الحذف...",
+      "cancelLabel": "إلغاء",
+      "toast": {
+        "success": "تم حذف العنصر بنجاح",
+        "error": "فشل حذف العنصر"
+      }
+    }
+  },
+  "lockers": {
+    "addDialog": {
+      "trigger": "إضافة خزانة",
+      "title": "إضافة خزانة",
+      "step": {
+        "info": "معلومات الخزانة",
+        "address": "العنوان",
+        "confirmation": "التأكيد"
+      },
+      "success": "تم إنشاء الخزانة بنجاح",
+      "error": "فشل إنشاء الخزانة",
+      "imageUploadDescription": "ارفع صورة الخزانة (اختياري)",
+      "documentUploadDescription": "ارفع مستند الخزانة (اختياري)",
+      "viewDocument": "عرض المستند المحدد",
+      "create": "إنشاء خزانة"
+    },
+    "editDialog": {
+      "title": "تعديل الخزانة",
+      "success": "تم تحديث الخزانة بنجاح",
+      "error": "فشل تحديث الخزانة"
+    },
+    "deleteDialog": {
+      "title": "حذف خزانة",
+      "description": "هل أنت متأكد أنك تريد حذف الخزانة {{code}}؟",
+      "toast": {
+        "success": "تم حذف الخزانة بنجاح",
+        "error": "فشل حذف الخزانة"
+      }
+    },
+    "fields": {
+      "customer": "العميل",
+      "status": "الحالة",
+      "code": "كود الخزانة",
+      "dynamicId": "المعرف الديناميكي",
+      "password": "كلمة مرور الخزانة",
+      "lockerNumberOptional": "الرقم الفعلي للخزانة (اختياري)",
+      "image": "صورة",
+      "document": "مستند",
+      "notes": "ملاحظات (اختياري)",
+      "zone": "المنطقة",
+      "zoneId": "معرّف المنطقة",
+      "address": "العنوان",
+      "lat": "خط العرض",
+      "lng": "خط الطول"
+    },
+    "status": {
+      "Inactive": "غير نشط",
+      "Active": "نشط",
+      "Requested": "مطلوب",
+      "Installed": "مركب"
+    },
+    "map": {
+      "title": "مواقع الخزائن",
+      "tabs": {
+        "map": "عرض الخريطة",
+        "list": "عرض القائمة"
+      },
+      "filters": {
+        "title": "الفلاتر",
+        "zones": "المناطق",
+        "drivers": "السائقون",
+        "customerStatus": "حالة العميل",
+        "days": "أيام التكرار",
+        "options": {
+          "active": "نشط",
+          "suspended": "معلق",
+          "sunTueThu": "الأحد، الثلاثاء، الخميس",
+          "satMonWed": "السبت، الاثنين، الأربعاء"
+        }
+      },
+      "legend": {
+        "title": "الدليل:",
+        "blue": "الأحد، الثلاثاء، الخميس",
+        "yellow": "السبت، الاثنين، الأربعاء",
+        "orange": "أيام أخرى",
+        "pink": "بدون تكرار",
+        "red": "معلق"
+      },
+      "searchLocationPlaceholder": "ابحث عن موقع (مثال: 31.963158, 35.930359)...",
+      "noLockers": "لا توجد خزائن لعرضها",
+      "totalLockers": "إجمالي الخزائن: {{count}}",
+      "list": {
+        "columns": {
+          "customer": "العميل",
+          "dynamicId": "المعرف الديناميكي",
+          "pickupOrder": "طلب الاستلام",
+          "dispatchedOrder": "طلب الإرسال",
+          "address": "العنوان"
+        },
+        "noResults": "لم يتم العثور على طلبات",
+        "pagination": {
+          "showing": "عرض {{from}} إلى {{to}} من {{total}} سجل",
+          "page": "صفحة {{current}} من {{total}}"
+        }
+      },
+      "errors": {
+        "emptyLocation": "الرجاء إدخال موقع",
+        "invalidFormat": "الرجاء إدخال الموقع كـ: خط العرض، خط الطول",
+        "invalidCoordinates": "إحداثيات غير صالحة",
+        "locationNotFound": "لم يتم العثور على الموقع",
+        "latRange": "يجب أن يكون خط العرض بين -90 و 90.",
+        "lngRange": "يجب أن يكون خط الطول بين -180 و 180."
+      },
+      "messages": {
+        "locationFound": "تم العثور على الموقع"
+      }
+    }
+  },
+  "customer": {
+    "details": {
+      "tabs": {
+        "general": "عام",
+        "bundle": "الحزمة",
+        "sms": "سجل الرسائل",
+        "credit": "الرصيد",
+        "invoice": "الفواتير"
+      },
+      "general": {
+        "title": "المعلومات العامة"
+      },
+      "homeAddress": "عنوان المنزل",
+      "workAddress": "عنوان العمل"
+    },
+    "summary": {
+      "currency": "ر.س",
+      "freeze": "مجمد"
+    },
+    "membership": {
+      "status": {
+        "active": "نشط",
+        "pending": "معلّق",
+        "cancelled": "ملغى",
+        "expired": "منتهي"
+      }
+    },
+    "types": {
+      "Customer": "عميل",
+      "Walk-in": "عميل زيارة",
+      "Driver": "سائق",
+      "User": "مستخدم"
+    },
+    "fields": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "mobile": "الموبايل",
+      "dynamic_id": "المعرف الديناميكي",
+      "grace_period": "فترة السماح (أيام)",
+      "status": "الحالة",
+      "password": "كلمة المرور",
+      "password_confirmation": "تأكيد كلمة المرور",
+      "recurs": "أيام التكرار",
+      "home_zone": "منطقة المنزل",
+      "work_zone": "منطقة العمل",
+      "latitude": "خط العرض",
+      "longitude": "خط الطول",
+      "amount": "المبلغ",
+      "notes": "ملاحظات (اختياري)"
+    },
+    "bundle": {
+      "changed": "تم تحديث الحزمة بنجاح",
+      "confirmDetach": "هل أنت متأكد أنك تريد فصل الحزمة؟",
+      "detached": "تم فصل الحزمة بنجاح",
+      "bundleId": "رقم الحزمة",
+      "next": "الحزمة التالية هي {{name}} ابتداءً من {{date}}",
+      "freezeConfirm": "هل أنت متأكد أنك تريد تحديث حالة التجميد لهذا العميل؟",
+      "current": {
+        "title": "تفاصيل الحزمة الحالية"
+      },
+      "change": "تغيير",
+      "detach": "فصل",
+      "audit": {
+        "title": "سجل الحزم",
+        "columns": {
+          "date": "التاريخ",
+          "name": "الاسم",
+          "period": "فترة الخدمة",
+          "price": "السعر",
+          "upto": "حتى",
+          "extraItems": "العناصر الإضافية"
+        },
+        "empty": "لا يوجد سجلات"
+      }
+    },
+    "credit": {
+      "added": "تم إضافة رصيد بنجاح",
+      "add": {
+        "title": "إضافة رصيد"
+      },
+      "audit": {
+        "title": "سجل الرصيد",
+        "columns": {
+          "date": "التاريخ",
+          "amount": "المبلغ",
+          "type": "النوع",
+          "createdBy": "أضيف بواسطة",
+          "invoiceCode": "رقم الفاتورة",
+          "balance": "الرصيد",
+          "note": "ملاحظة"
+        },
+        "empty": "لا يوجد سجلات"
+      }
+    },
+    "sms": {
+      "title": "سجل الرسائل القصيرة",
+      "message": "الرسالة",
+      "date": "التاريخ",
+      "empty": "لا توجد رسائل"
+    },
+    "invoice": {
+      "title": "الفواتير",
+      "dueDate": "تاريخ الاستحقاق",
+      "code": "الرمز",
+      "order": "الطلب",
+      "dueAmount": "المبلغ المستحق",
+      "actions": "الإجراءات",
+      "empty": "لا توجد فواتير"
+    },
+    "statusOptions": {
+      "Active": "نشط",
+      "Inactive": "غير نشط",
+      "Pending": "معلّق"
+    },
+    "recurs": {
+      "days": {
+        "Sun": "الأحد",
+        "Mon": "الإثنين",
+        "Tue": "الثلاثاء",
+        "Wed": "الأربعاء",
+        "Thu": "الخميس",
+        "Fri": "الجمعة",
+        "Sat": "السبت"
+      }
+    },
+    "map": {
+      "selectZone": "اختر المنطقة"
+    }
+  },
+  "upload": {
+    "button": "رفع",
+    "fileRejectedDescription": "\"{{name}}\" تم رفضه"
+  }
+}

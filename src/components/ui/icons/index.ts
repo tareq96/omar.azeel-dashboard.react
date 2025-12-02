@@ -1,0 +1,15 @@
+export { default as ArrowLeftIcon } from "@/assets/svgs/arrow-left.svg?react";
+export { default as CalendarIcon } from "@/assets/svgs/calendar.svg?react";
+export { default as DownloadIcon } from "@/assets/svgs/download.svg?react";
+export { default as EditIcon } from "@/assets/svgs/edit.svg?react";
+export { default as FileIcon } from "@/assets/svgs/file.svg?react";
+export { default as File2Icon } from "@/assets/svgs/file2.svg?react";
+export { default as FilterLinesIcon } from "@/assets/svgs/filter-lines.svg?react";
+export { default as FolderIcon } from "@/assets/svgs/folder.svg?react";
+export { default as LinkIcon } from "@/assets/svgs/link.svg?react";
+export { default as MoreDotsIcon } from "@/assets/svgs/more-dots.svg?react";
+export { default as PlusIcon } from "@/assets/svgs/plus.svg?react";
+export { default as SearchIcon } from "@/assets/svgs/search.svg?react";
+export { default as TrashIcon } from "@/assets/svgs/trash.svg?react";
+export { default as UploadIcon } from "@/assets/svgs/upload.svg?react";
+export { default as XIcon } from "@/assets/svgs/x.svg?react";

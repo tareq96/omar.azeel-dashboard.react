@@ -1,0 +1,80 @@
+version: '3.9'
+
+services:
+  # ===========================================================================
+  # Development Service - Hot Reload with Bun
+  # ===========================================================================
+  dev:
+    image: oven/bun:1.3-alpine
+    container_name: azeel-dashboard-dev
+    working_dir: /app
+    command: bun run dev
+    ports:
+      - "${DEV_PORT:-3000}:3000"
+    volumes:
+      # Mount source code for hot reload
+      - .:/app
+      # Use named volumes for node_modules to prevent conflicts
+      - node_modules_dev:/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - VITE_API_URL=${VITE_API_URL:-http://127.0.0.1:8000/api/admin/}
+      - VITE_APP_ENV=development
+    networks:
+      - azeel-network
+    stdin_open: true
+    tty: true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # ===========================================================================
+  # Production Service - NGINX serving optimized build
+  # ===========================================================================
+  prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: ${VITE_API_URL:-https://azeelapp.com/api/admin/}
+        VITE_APP_ENV: production
+      # Use build cache for faster rebuilds
+      cache_from:
+        - azeel-dashboard-prod:latest
+    image: azeel-dashboard-prod:latest
+    container_name: azeel-dashboard-prod
+    ports:
+      - "${PROD_PORT:-8080}:80"
+    environment:
+      - NGINX_WORKER_PROCESSES=auto
+      - NGINX_WORKER_CONNECTIONS=1024
+    networks:
+      - azeel-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/health"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    # Resource limits (optional, adjust as needed)
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+
+networks:
+  azeel-network:
+    driver: bridge
+
+volumes:
+  node_modules_dev:
+    driver: local
+

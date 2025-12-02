@@ -1,0 +1,75 @@
+# =============================================================================
+# Stage 1: Build Stage - Using Bun
+# =============================================================================
+FROM oven/bun:1.3-alpine AS builder
+
+# Set working directory
+WORKDIR /app
+
+# Install build dependencies (for native modules if needed)
+RUN apk add --no-cache git
+
+# Copy package files
+COPY package.json ./
+COPY bun.lock* ./
+
+# Install dependencies
+# --frozen-lockfile ensures reproducible builds (if lockfile exists)
+# Installs all dependencies including devDependencies (omit --production flag)
+RUN bun install --frozen-lockfile
+
+# Copy source code
+COPY . .
+
+# Build arguments for environment variables
+ARG VITE_API_URL
+ARG VITE_APP_ENV=production
+
+# Set environment variables for build
+ENV VITE_API_URL=$VITE_API_URL
+ENV VITE_APP_ENV=$VITE_APP_ENV
+ENV NODE_ENV=production
+
+# Build the application
+RUN bun run build
+
+# =============================================================================
+# Stage 2: Production Stage - Using NGINX
+# =============================================================================
+FROM nginx:1.27-alpine AS production
+
+# Install curl for healthchecks
+RUN apk add --no-cache curl
+
+# Copy custom nginx config
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# Copy built assets from builder stage
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# Copy any static assets that might not be in dist
+COPY --from=builder /app/public /usr/share/nginx/html
+
+# Create non-root user for better security
+RUN addgroup -g 1001 -S nodejs && \
+    adduser -S nodejs -u 1001 && \
+    chown -R nodejs:nodejs /usr/share/nginx/html && \
+    chown -R nodejs:nodejs /var/cache/nginx && \
+    chown -R nodejs:nodejs /var/log/nginx && \
+    chown -R nodejs:nodejs /etc/nginx/conf.d && \
+    touch /var/run/nginx.pid && \
+    chown -R nodejs:nodejs /var/run/nginx.pid
+
+# Switch to non-root user
+USER nodejs
+
+# Expose port 80
+EXPOSE 80
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD curl -f http://localhost:80/ || exit 1
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]
+

@@ -1,0 +1,1371 @@
+{
+  "common": {
+    "submit": "Save",
+    "noResults": "No results found",
+    "backToList": "Back to List",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Confirm Delete",
+    "deleteSuccess": "Deleted Successfully",
+    "save": "Save",
+    "confirm": "Confirm Message",
+    "success": "Success",
+    "failed": "Failed",
+    "download": "Download",
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "cancelSelection": "Cancel Selection",
+    "confirmAdd": "Confirm Add",
+    "actions": {
+      "confirm": "Confirm"
+    },
+    "soon": "Soon",
+    "preview": "Preview",
+    "export": {
+      "button": "Export",
+      "exporting": "Exporting...",
+      "success": "Data exported successfully!",
+      "error": "Failed to export data. Please try again."
+    },
+    "apply": "Apply",
+    "select": "Select",
+    "hide": "Hide",
+    "text": "Text",
+    "email": "Email",
+    "number": "Number",
+    "date": "Date",
+    "time": "Time",
+    "password": "Password",
+    "user": "User",
+    "required": "this field is required",
+    "requiredForCompleteProfile": "Required To Complete Profile",
+    "close": "Close",
+    "clearFilter": "Clear Filter",
+    "title": "Title",
+    "url": "URL",
+    "description": "Description",
+    "content": "Content",
+    "name": "Name",
+    "create": "Create",
+    "add": "Add",
+    "note": "Note",
+    "link": "Link",
+    "favorite": "Favorite",
+    "sort": "Sort",
+    "addSorting": "Add Sorting",
+    "resetSorting": "Reset Sorting",
+    "asc": "ASC",
+    "desc": "DESC",
+    "filter": "Filter",
+    "all": "All",
+    "allTypes": "All Types",
+    "files": "Files",
+    "folders": "Folders",
+    "links": "Links",
+    "notes": "Notes",
+    "order": {
+      "manual": "Manual",
+      "recent": "Recent",
+      "oldest": "Oldest",
+      "name": "Name",
+      "size": "Size"
+    },
+    "deleteConfirm": "Are you sure?",
+    "downloading": "Downloading...",
+    "errors": {
+      "downloadFailed": "download failed, please try again later."
+    },
+    "validations": {
+      "email": "Invalid email format"
+    },
+    "parentOf": "Parent of",
+    "at": "At",
+    "fullscreen": "Fullscreen",
+    "reset": "Reset",
+    "selectAll": "Select All",
+    "search": "Search",
+    "previous": "Previous",
+    "notSet": "Not Set",
+    "moreCount": "+{{count}} more",
+    "none": "None",
+    "days": "days",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "calendar": {
+    "selectDate": "Select date"
+  },
+  "search": "Search...",
+  "perPage": "Per Page",
+  "delete": "Delete",
+  "sidebar": {
+    "languageSwitcher": {
+      "label": "Language",
+      "en": "English",
+      "ar": "Arabic"
+    },
+    "themeSwitcher": {
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "general": {
+      "title": "General",
+      "items": {
+        "dashboard": "Dashboard"
+      }
+    },
+    "operations": {
+      "title": "Operations",
+      "items": {
+        "orders": "Orders",
+        "trips": "Trips",
+        "items": "Items",
+        "lockers": "Lockers",
+        "lockersGeolocation": "Lockers Geolocation"
+      }
+    },
+    "userManagement": {
+      "title": "User Management",
+      "items": {
+        "adminUsers": "Admin Users",
+        "customers": "Customers",
+        "drivers": "Drivers",
+        "memberships": "Memberships",
+        "tickets": "Tickets",
+        "addTicket": "Add a Ticket"
+      }
+    },
+    "information": {
+      "title": "Information",
+      "items": {
+        "addresses": "Addresses",
+        "sms": "SMS"
+      }
+    },
+    "packaging": {
+      "title": "Packaging",
+      "items": {
+        "bundles": "Bundles"
+      }
+    },
+    "payment": {
+      "title": "Payment",
+      "items": {
+        "topups": "Topup Cards",
+        "promos": "Promo Codes",
+        "credits": "Credits",
+        "creditCards": "Credits Cards"
+      }
+    },
+    "accounting": {
+      "title": "Accounting",
+      "items": {
+        "invoices": "Invoices"
+      }
+    }
+  },
+  "header": {
+    "dashboard": "Dashboard",
+    "adminUsers": "Admin Users",
+    "customers": "Customers",
+    "drivers": "Drivers",
+    "trips": "Trips",
+    "memberships": "Memberships",
+    "tickets": "Tickets",
+    "createTicket": "Create Ticket",
+    "auth": "Auth",
+    "login": "Login",
+    "addresses": "Addresses",
+    "messages": "SMS",
+    "bundles": "Bundles",
+    "topups": "Topup Cards",
+    "promos": "Promo Codes",
+    "credits": "Credits",
+    "creditCards": "Credit Cards",
+    "invoices": "Invoices",
+    "items": "Items",
+    "lockers": "Lockers"
+  },
+  "promos": "Promo Codes",
+  "invoicesTable": {
+    "columns": {
+      "dueDate": { "label": "Due Date" },
+      "code": { "label": "Code" },
+      "user": { "label": "User" },
+      "order": { "label": "Order" },
+      "dueAmount": { "label": "Due Amount" },
+      "actions": { "label": "Actions", "print": "Print" }
+    }
+  },
+  "creditsTable": {
+    "columns": {
+      "date": { "label": "Date" },
+      "customer": { "label": "Customer" },
+      "amount": { "label": "Amount" },
+      "type": {
+        "label": "Type",
+        "options": {
+          "Credit": "Credit",
+          "Credit_Card": "Credit Card",
+          "PayPal": "PayPal",
+          "Invoice": "Invoice",
+          "Topup": "Topup",
+          "Promo": "Promo",
+          "Debit": "Debit"
+        }
+      },
+      "notes": { "label": "Notes" }
+    }
+  },
+  "trips": {
+    "tabs": {
+      "orderPickupDropoff": "Order - Pick up, Drop off",
+      "lockerInstallation": "Locker Installation",
+      "topups": "Topup Cards",
+      "lockerMaintenance": "Locker Maintenance",
+      "lockerRemoval": "Locker Removal"
+    },
+    "details": {
+      "tabs": {
+        "general": "General",
+        "allOrders": "All Orders",
+        "tripAudits": "Trip Audits"
+      },
+      "general": {
+        "description": "Edit trip information",
+        "prefixed": "Prefixed (read-only)",
+        "prefixedTitle": "Code & Path",
+        "noLocation": "No location data"
+      }
+    },
+    "addDialog": {
+      "trigger": "Add Trip",
+      "title": "Add Trip",
+      "step": {
+        "driver": "Driver",
+        "confirmation": "Confirmation"
+      },
+      "loadingDrivers": "Loading drivers...",
+      "selectDriver": "Select a driver",
+      "willBeGenerated": "Will be generated",
+      "success": "Trip has been created successfully",
+      "error": "Failed to create trip"
+    },
+    "fields": {
+      "driver": "Driver:",
+      "code": "Code:",
+      "path": "Path:",
+      "startedAt": "Start at:",
+      "endedAt": "End at:",
+      "pickupOrders": "Pickup Orders",
+      "dropOffOrders": "Drop Off Orders",
+      "status": "Status:",
+      "lat": { "label": "Lat." },
+      "lng": { "label": "Lng." }
+    },
+    "orders": {
+      "sections": {
+        "pickup": "Pick Up Orders",
+        "tickets": "Tickets"
+      },
+      "columns": {
+        "customer": { "label": "Customer" },
+        "address": { "label": "Address" }
+      }
+    },
+    "audits": {
+      "columns": {
+        "event": {
+          "label": "Event",
+          "options": {
+            "Created": "Created",
+            "Updated": "Updated",
+            "Deleted": "Deleted",
+            "Restored": "Restored"
+          }
+        },
+        "user": { "label": "User" }
+      }
+    },
+    "status": {
+      "pending": "Pending"
+    },
+    "actions": {
+      "createTrip": "Create Trip"
+    }
+  },
+
+  "trips.deleteDialog": {
+    "title": "Delete Trip",
+    "description": "Are you sure you want to delete trip {{code}}?",
+    "confirmLabel": "Delete",
+    "deletingLabel": "Deleting...",
+    "cancelLabel": "Cancel",
+    "toast": {
+      "success": "Trip deleted successfully",
+      "error": "Failed to delete trip"
+    }
+  },
+  "itemsTable": {
+    "columns": {
+      "icon": { "label": "Icon" },
+      "name": { "label": "Name" },
+      "id": { "label": "ID" },
+      "priceIron": { "label": "Price (Iron)" },
+      "priceDryClean": { "label": "Price (Dry Clean)" },
+      "actions": {
+        "label": "Actions",
+        "drawerTitle": "Item Actions",
+        "options": { "edit": { "label": "Edit" } }
+      }
+    }
+  },
+  "lockersTable": {
+    "columns": {
+      "id": { "label": "ID" },
+      "status": {
+        "label": "Status",
+        "options": {
+          "active": "Active",
+          "inactive": "Inactive",
+          "requested": "Requested",
+          "installed": "Installed",
+          "suspend": "Suspend"
+        }
+      },
+      "code": { "label": "Code" },
+      "user": { "label": "User" },
+      "address": { "label": "Address" },
+      "actions": {
+        "label": "Actions",
+        "drawerTitle": "Locker Actions",
+        "options": { "edit": { "label": "Edit" } }
+      }
+    }
+  },
+  "ordersTable": {
+    "columns": {
+      "status": {
+        "options": {
+          "Submitted": "Submitted"
+        }
+      }
+    }
+  },
+  "tripsTable": {
+    "columns": {
+      "code": { "label": "Code" },
+      "driver": { "label": "Driver" },
+      "date": { "label": "Date" },
+      "actions": {
+        "label": "Actions",
+        "drawerTitle": "Trip Actions",
+        "options": { "edit": { "label": "Edit" } }
+      },
+      "status": {
+        "label": "Status",
+        "options": {
+          "Pending": "Pending",
+          "InProgress": "In Progress",
+          "Completed": "Completed"
+        }
+      }
+    }
+  },
+  "navUser": {
+    "account": "Account",
+    "notifications": "Notifications",
+    "logout": "Log out",
+    "loggingOut": "Logging out..."
+  },
+  "user": {
+    "unknown": "User"
+  },
+  "users": {
+    "fields": {
+      "zones": "Zones"
+    },
+    "addDialog": {
+      "trigger": "Add User",
+      "title": "Add User",
+      "step": {
+        "info": "User Information",
+        "image": "Profile Image",
+        "permissions": "Permissions",
+        "confirmation": "Confirmation"
+      },
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "mobile": "Mobile",
+        "type": "User Type",
+        "status": "Status",
+        "image": "Profile Image",
+        "jobTitle": "Job Title",
+        "password": "Password",
+        "passwordConfirmation": "Confirm Password",
+        "permissions": "Permissions"
+      },
+      "placeholders": {
+        "name": "Enter full name",
+        "email": "Enter email address",
+        "mobile": "Enter mobile number",
+        "type": "Select user type",
+        "status": "Select status",
+        "image": "Enter image URL",
+        "jobTitle": "Enter job title (optional)",
+        "password": "Enter password (minimum 8 characters)",
+        "passwordConfirmation": "Re-enter password",
+        "permissions": "Select permissions"
+      },
+      "types": {
+        "admin": "Admin",
+        "customer": "Customer",
+        "driver": "Driver",
+        "walkin": "Walk-in"
+      },
+      "statuses": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "validations": {
+        "passwordMinLength": "Password must be at least 8 characters",
+        "passwordMismatch": "Passwords do not match",
+        "mobileFormat": "Mobile number must be exactly 10 digits",
+        "permissionsRequired": "At least one permission must be selected for Admin users"
+      },
+      "permissions": {
+        "notApplicable": "Permissions are only applicable for Admin users",
+        "description": "Select permissions for this admin user"
+      },
+      "imageUploadDescription": "Upload profile image (optional)",
+      "confirmation": {
+        "title": "Review User Details",
+        "create": "Create User",
+        "permissionsCount": "{{count}} permission(s) selected"
+      },
+      "success": "User has been created successfully",
+      "error": "Failed to create user"
+    },
+    "editDialog": {
+      "title": "Edit User",
+      "success": "User updated successfully",
+      "error": "Failed to update user",
+      "placeholders": {
+        "password": "Leave blank to keep current password",
+        "passwordConfirmation": "Confirm new password"
+      },
+      "confirmation": {
+        "update": "Update User"
+      }
+    }
+  },
+  "permissions": {
+    "super_admin": "Super Admin",
+    "orders_create": "Create Orders",
+    "orders_update": "Update Orders",
+    "orders_delete": "Delete Orders",
+    "orders_view": "View Orders",
+    "invoices_view": "View Invoices",
+    "customers_create": "Create Customers",
+    "customers_update": "Update Customers",
+    "customers_view": "View Customers",
+    "drivers_create": "Create Drivers",
+    "drivers_update": "Update Drivers",
+    "drivers_view": "View Drivers",
+    "address_create": "Create Address",
+    "send_sms": "Send SMS",
+    "item_create": "Create Items",
+    "item_view": "View Items",
+    "item_delete": "Delete Items",
+    "promocode_create": "Create Promo Codes",
+    "credits_show": "View Credits",
+    "topup_create": "Create Topups",
+    "settings_management": "Settings Management",
+    "notifications": "Notifications",
+    "locker_management": "Locker Management",
+    "trip_management": "Trip Management",
+    "bundle_management": "Bundle Management",
+    "help_desk_management": "Help Desk Management",
+    "memberships_view": "View Memberships",
+    "tickets_view": "View Tickets",
+    "tickets_add": "Add Tickets",
+    "locker_geolocation_view": "View Locker Geolocation"
+  },
+  "dashboard": {
+    "summary": {
+      "filters": {
+        "dateRange": "Date Range"
+      },
+      "tabs": {
+        "mobile": "Mobile",
+        "walkin": "Walk-in"
+      },
+      "cards": {
+        "activeLockers": "Active Lockers",
+        "activeRecurringCustomers": "Active Recurring Customers",
+        "orders": {
+          "received": "Orders Received",
+          "submitted": "Orders Submitted",
+          "dispatched": "Orders Dispatched",
+          "inKitchen": "Orders In Kitchen",
+          "fake": "Fake Orders"
+        },
+        "totals": {
+          "topup": "Topup Total",
+          "creditCard": "Credit Card Total",
+          "credit": "Credit Total"
+        }
+      },
+      "errorTitle": "Failed to load dashboard summary",
+      "loadingCard": "Loading metric {{index}}..."
+    }
+  },
+  "api": {
+    "unknownError": "An unexpected error occurred.",
+    "errors": {
+      "something_went_wrong": "An error has happened, please try later",
+      "invalid_credentials": "Incorrect Username or Password!",
+      "driver_pending_trip": "Driver already has a pending trip."
+    }
+  },
+  "dataTable": {
+    "viewOptions": {
+      "title": "View",
+      "noColumnsFound": "No columns found.",
+      "searchPlaceholder": "Search columns...",
+      "reorderHandleAriaLabel": "Reorder column"
+    },
+    "filters": {
+      "reset": "reset",
+      "placeholder": "Search {{fieldName}}..."
+    },
+    "noResults": "Nothing to preview",
+    "pagination": {
+      "selectedRowsCountMessage": "{{selected}} of {{total}} row(s) selected",
+      "rowsPerPage": "Rows per page",
+      "page": "Page {{currentPage}} of {{totalPages}}"
+    },
+    "settings": {
+      "menu": "Settings",
+      "reset": {
+        "title": "Reset settings"
+      },
+      "orderVisibility": {
+        "title": "Column order & visibility"
+      }
+    },
+    "columns": {
+      "reset": "Reset",
+      "resetAll": "Reset all",
+      "resetSizes": "Reset column sizes",
+      "resetVisibility": "Reset visibility",
+      "resetOrder": "Reset order",
+      "showAll": "Show all"
+    }
+  },
+  "usersTable": {
+    "columns": {
+      "name": {
+        "label": "Name"
+      },
+      "userName": {
+        "label": "User Name"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "type": {
+        "label": "Role"
+      },
+      "status": {
+        "label": "Status",
+        "options": {
+          "active": "Active",
+          "inactive": "Not Active",
+          "pending": "Pending"
+        }
+      },
+      "mobile": {
+        "label": "Mobile"
+      },
+      "idc": {
+        "label": "IDC"
+      },
+      "createdAt": {
+        "label": "Created Date"
+      },
+      "lastActivityAt": {
+        "label": "Last Active"
+      },
+      "suspension": {
+        "label": "Suspension",
+        "toast": {
+          "success": "Suspension updated",
+          "error": "Failed to update suspension",
+          "apiSuccess": "A customer suspension has been updated"
+        }
+      },
+      "actions": {
+        "label": "Actions",
+        "drawerTitle": "User Actions",
+        "options": {
+          "profile": {
+            "label": "Profile"
+          },
+          "edit": {
+            "label": "Edit"
+          },
+          "resetPassword": {
+            "label": "Reset Password"
+          },
+          "deactivate": {
+            "label": "Deactivate",
+            "confirmMessage": "Are you sure you want to deactivate user ({{name}})?"
+          },
+          "activate": {
+            "label": "Activate",
+            "confirmMessage": "Are you sure you want to reactivate user ({{name}})?"
+          }
+        }
+      }
+    },
+    "actions": {
+      "addMember": {
+        "title": "Add Member",
+        "success": "Member added successfully!",
+        "modal": {
+          "firstname": "First Name",
+          "lastname": "Last Name",
+          "name": "User Name",
+          "email": "Email",
+          "mobile": "Phone Number",
+          "password": "Password"
+        }
+      },
+      "export": "Export to Excel"
+    },
+    "export": {
+      "success": "Users list exported successfully!",
+      "error": "Failed to export users list. Please try again."
+    }
+  },
+  "topupsTable": {
+    "columns": {
+      "number": { "label": "Number" },
+      "status": {
+        "label": "Status",
+        "options": {
+          "New": "New",
+          "Requested": "Requested",
+          "Used": "Used"
+        }
+      },
+      "amount": { "label": "Amount" },
+      "customer": { "label": "Customer" },
+      "staff": { "label": "Staff" },
+      "chargeDate": { "label": "Charge Date" },
+      "createdAt": { "label": "Created Date" },
+      "actions": { "label": "Actions", "drawerTitle": "Topup Actions" }
+    }
+  },
+  "promosTable": {
+    "columns": {
+      "name": { "label": "Name" },
+      "status": {
+        "label": "Status",
+        "options": {
+          "Pending": "Pending",
+          "Active": "Active",
+          "Inactive": "Inactive"
+        }
+      },
+      "amount": { "label": "Amount" },
+      "percent": { "label": "Percent" },
+      "beneficiaries": { "label": "Beneficiaries" },
+      "startDate": { "label": "Start Date" },
+      "endDate": { "label": "End Date" },
+      "createdAt": { "label": "Created Date" },
+      "actions": { "label": "Actions", "drawerTitle": "Promo Actions" }
+    }
+  },
+  "addressesTable": {
+    "columns": {
+      "address": { "label": "Address" },
+      "lat": { "label": "Lat" },
+      "lng": { "label": "Lng" },
+      "notes": { "label": "Notes" },
+      "actions": { "label": "Actions", "drawerTitle": "Address Actions" }
+    }
+  },
+  "customers": {
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "addDialog": {
+      "trigger": "Add Customer",
+      "title": "Add Customer",
+      "step": {
+        "info": "Customer Information",
+        "location": "Location",
+        "bundle": "Bundle & Membership",
+        "image": "Profile Image",
+        "confirmation": "Confirmation"
+      },
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "mobile": "Mobile",
+        "password": "Password",
+        "passwordConfirmation": "Confirm Password",
+        "status": "Status",
+        "image": "Profile Image",
+        "homeZone": "Home Zone",
+        "homeLat": "Home Latitude",
+        "homeLng": "Home Longitude",
+        "workZone": "Work Zone",
+        "workLat": "Work Latitude",
+        "workLng": "Work Longitude",
+        "bundle": "Bundle",
+        "bundleName": "Name",
+        "bundlePrice": "Price",
+        "bundleUpto": "Upto",
+        "bundleContinuous": "Continuous",
+        "gracePeriod": "Grace Period (days)",
+        "activationDate": "Activation Date",
+        "installationDate": "Installation Date",
+        "installationTime": "Installation Time"
+      },
+      "placeholders": {
+        "name": "Enter customer name",
+        "dynamicId": "Enter customer ID (optional)",
+        "email": "Enter email address",
+        "mobile": "Enter mobile number",
+        "password": "Enter password (minimum 8 characters)",
+        "passwordConfirmation": "Re-enter password",
+        "status": "Select status",
+        "homeZone": "Select home zone",
+        "homeLat": "Enter latitude (e.g., 24.7136)",
+        "homeLng": "Enter longitude (e.g., 46.6753)",
+        "workZone": "Select work zone (optional)",
+        "workLat": "Enter latitude",
+        "workLng": "Enter longitude",
+        "bundle": "Select bundle (optional)",
+        "gracePeriod": "Enter grace period (0-365)",
+        "activationDate": "Select activation date",
+        "installationDate": "Select installation date",
+        "installationTime": "Select installation time",
+        "selectBundleFirst": "Select bundle first"
+      },
+      "sections": {
+        "homeAddress": "Home Address",
+        "workAddress": "Work Address (Optional)",
+        "bundleSelection": "Bundle Selection",
+        "dates": "Activation & Installation"
+      },
+      "descriptions": {
+        "bundle": "Select a membership bundle for this customer",
+        "gracePeriod": "Number of days before service suspension (0-365)"
+      },
+      "validations": {
+        "passwordMinLength": "Password must be at least 8 characters",
+        "passwordMismatch": "Passwords do not match",
+        "mobileFormat": "Mobile number must be exactly 10 digits",
+        "mobileTaken": "The mobile has already been taken.",
+        "latRange": "Latitude must be between -90 and 90",
+        "lngRange": "Longitude must be between -180 and 180",
+        "gracePeriodMin": "Grace period must be at least 0 days",
+        "gracePeriodMax": "Grace period cannot exceed 365 days",
+        "workLatRequired": "Work latitude is required when work zone is selected",
+        "workLngRequired": "Work longitude is required when work zone is selected",
+        "activationDateAfterInstallation": "Activation date must be after or equal to installation date",
+        "homeZoneInvalid": "The selected home zone is invalid.",
+        "workZoneInvalid": "The selected work zone is invalid."
+      },
+      "imageUploadDescription": "Upload customer profile image (optional)",
+      "confirmation": {
+        "title": "Review Customer Details",
+        "create": "Create Customer"
+      },
+      "success": "Customer has been created successfully",
+      "error": "Failed to create customer"
+    }
+  },
+  "customersTable": {
+    "columns": {
+      "name": { "label": "Name" },
+      "customerId": { "label": "Customer ID" },
+      "mobile": { "label": "Mobile" },
+      "email": { "label": "Email" },
+      "area": { "label": "Area" },
+      "registrationDate": { "label": "Registration Date" },
+      "balance": { "label": "Balance" },
+      "status": {
+        "label": "Status",
+        "options": {
+          "active": "Active",
+          "inactive": "Not Active",
+          "pending": "Pending"
+        }
+      },
+      "actions": {
+        "label": "Actions",
+        "options": {
+          "edit": { "label": "Edit" }
+        }
+      }
+    }
+  },
+  "membershipTable": {
+    "columns": {
+      "customerId": { "label": "Customer ID" },
+      "area": { "label": "Area" },
+      "bundle": { "label": "Bundle Name" },
+      "recurringDays": { "label": "Recurring Days" },
+      "balance": { "label": "Balance" },
+      "remainingItems": { "label": "Remaining Items" },
+      "activationDate": { "label": "Activation Date" }
+    }
+  },
+  "ticketsTable": {
+    "columns": {
+      "details": { "label": "Details" },
+      "type": { "label": "Ticket Type" },
+      "assignee": { "label": "Assignee" },
+      "customer": { "label": "Customer" },
+      "creator": { "label": "Creator" },
+      "status": {
+        "label": "Status",
+        "options": {
+          "To Do": "To Do",
+          "In Progress": "In Progress",
+          "Done": "Done",
+          "Canceled": "Canceled"
+        }
+      },
+      "createdAt": { "label": "Created Date" },
+      "updatedAt": { "label": "Last Updated" },
+      "actions": { "label": "Actions", "drawerTitle": "Ticket Actions" }
+    }
+  },
+  "messagesTable": {
+    "columns": {
+      "title": { "label": "Title" },
+      "body": { "label": "Message" },
+      "type": {
+        "label": "Type",
+        "options": {
+          "sms": "SMS",
+          "push_notification": "Push Notification"
+        }
+      },
+      "customer_name": { "label": "Customer" },
+      "customer_mobile": { "label": "Customer Mobile" },
+      "send_by_name": { "label": "Sender" },
+      "created_at": { "label": "Created Date" },
+      "message": { "label": "Message" },
+      "customer": { "label": "Customer" },
+      "date": { "label": "Date" }
+    }
+  },
+  "ticketsCreate": {
+    "title": "Add a Ticket",
+    "fields": {
+      "type": "Ticket Type",
+      "status": "Status",
+      "assignee": "Assignee",
+      "maintinanceAssignee": "Assignee",
+      "removalAssignee": "Assignee",
+      "recurringDaysAssignee": "Assignee",
+      "customer": "Customer",
+      "subject": "Subject"
+    },
+    "typeOptions": {
+      "Maintinance": "Maintenance",
+      "Locker_Removal": "Locker Removal",
+      "Balance_Adjustment": "Balance Adjustment",
+      "Installation": "Installation",
+      "Recurring_Days": "Recurring Days",
+      "Reminders": "Reminders"
+    },
+    "sections": {
+      "lockerRemoval": {
+        "title": "Locker Removal",
+        "dateOfLockerRemoval": "Date of locker removal",
+        "amountOfMoney": "Amount of money to be paid"
+      },
+      "balanceAdjustment": {
+        "title": "Balance Adjustment",
+        "amountToBeAdded": "Amount of money to be added",
+        "reasonOfMoney": "Reason of money"
+      },
+      "installation": {
+        "title": "Installation",
+        "geoLocation": "Geo Location",
+        "subscriptionStartingDate": "Starting date for the subscription",
+        "installationStartingDate": "Installation starting date",
+        "installationStartingTime": "Installation starting time",
+        "bundleName": "Bundle Name"
+      }
+    },
+    "actions": {
+      "submit": "Submit",
+      "backToList": "Back to List"
+    },
+    "toast": {
+      "success": "Ticket has been created successfully",
+      "error": "Failed to create ticket"
+    }
+  },
+  "groupsTable": {
+    "columns": {
+      "name": {
+        "label": "Name"
+      },
+      "privacy": {
+        "label": "Privacy",
+        "options": {
+          "Public": "Public",
+          "Private": "Private"
+        }
+      },
+      "status": {
+        "label": "Status",
+        "options": {
+          "active": "Active",
+          "inactive": "Not Active",
+          "pending": "Pending"
+        }
+      },
+      "type": {
+        "label": "Type",
+        "options": {
+          "courses": "Courses",
+          "other": "Other"
+        }
+      },
+      "membersCount": {
+        "label": "Members Count"
+      },
+      "creator": {
+        "label": "Created By"
+      },
+      "createdAt": {
+        "label": "Created Date"
+      },
+      "latestActivityAt": {
+        "label": "Last Activity"
+      },
+      "actions": {
+        "label": "Actions",
+        "options": {
+          "edit": {
+            "label": "Edit"
+          },
+          "members": {
+            "label": "Members"
+          }
+        }
+      }
+    },
+    "actions": {
+      "edit": {
+        "title": "Edit Group",
+        "success": "Group edited successfully!",
+        "modal": {
+          "name": "Group Name",
+          "description": "Group Description",
+          "color": "Color",
+          "privacy": "Privacy"
+        }
+      }
+    }
+  },
+  "groupMembersTable": {
+    "columns": {
+      "fullName": {
+        "label": "Name"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "groupRole": {
+        "label": "Group role"
+      },
+      "joinedDate": {
+        "label": "Joined date"
+      },
+      "lastActivityAt": {
+        "label": "Last activity"
+      },
+      "actions": {
+        "label": "Actions",
+        "options": {
+          "accept": {
+            "label": "Accept"
+          },
+          "reject": {
+            "label": "Reject"
+          }
+        }
+      }
+    }
+  },
+  "drivers": {
+    "tabs": {
+      "orderPickupDropoff": "Order - Pick up, Drop off",
+      "lockerInstallation": "Locker - Locker installation",
+      "topups": "Topups - Topup Cards",
+      "lockerMaintenance": "Locker - Locker Maintenance",
+      "lockerRemoval": "Locker - Locker Removal"
+    }
+  },
+  "messagesForm": {
+    "title": "Title",
+    "titlePlaceholder": "Enter title",
+    "message": "Message",
+    "messagePlaceholder": "Type your message...",
+    "type": "Type",
+    "typeOptions": {
+      "sms": "SMS",
+      "push": "Push Notifications"
+    },
+    "customers": "Customers",
+    "selectCustomer": "Select a customer...",
+    "searchCustomers": "Search customers...",
+    "loadingCustomers": "Loading customers...",
+    "noCustomers": "No customers found.",
+    "send": "Send",
+    "sending": "Sending...",
+    "clear": "Clear",
+    "toast": {
+      "success": "Message(s) have been sent successfully",
+      "error": "Failed to send message"
+    },
+    "errors": {
+      "sendFailed": "Failed to send message"
+    },
+    "validations": {
+      "titleRequired": "Title is required",
+      "messageRequired": "Message is required",
+      "typeRequired": "Type is required",
+      "customersRequired": "At least one customer is required"
+    }
+  },
+  "bundlesTable": {
+    "columns": {
+      "name": { "label": "Name" },
+      "price": { "label": "Price" },
+      "upto": { "label": "Upto" },
+      "gracePeriod": { "label": "Grace Period" },
+      "actions": { "label": "Actions", "drawerTitle": "Bundle Actions" }
+    },
+    "actions": {
+      "manageItems": "Manage Items"
+    }
+  },
+  "items": {
+    "addDialog": {
+      "trigger": "Add Item",
+      "title": "Add Item",
+      "step": {
+        "info": "Item Information",
+        "price": "Price",
+        "icon": "Icon",
+        "confirmation": "Confirmation"
+      },
+      "success": "Item has been created successfully",
+      "error": "Failed to create item",
+      "iconPreviewEmpty": "No icon selected",
+      "iconUploadDescription": "Upload item icon (optional)"
+    },
+    "editDialog": {
+      "title": "Edit Item",
+      "step": {
+        "info": "Item Information",
+        "price": "Price",
+        "icon": "Icon",
+        "confirmation": "Confirmation"
+      },
+      "success": "Item has been updated successfully",
+      "error": "Failed to update item",
+      "iconUploadDescription": "Upload new icon (optional)"
+    },
+    "fields": {
+      "name": "Name",
+      "dynamic_id": "Ghaseelcom ID",
+      "price_iron_only": "Price Iron only",
+      "price_dry_clean": "Price Dry clean only",
+      "icon": "Icon"
+    },
+    "placeholders": {
+      "name": "Enter name",
+      "dynamic_id": "Enter Ghaseelcom ID",
+      "price_iron_only": "Enter price",
+      "price_dry_clean": "Enter price"
+    },
+    "actions": {
+      "createItem": "Create Item",
+      "updateItem": "Update Item"
+    },
+    "deleteDialog": {
+      "title": "Delete Item",
+      "description": "Are you sure you want to delete item {{name}}?",
+      "confirmLabel": "Delete",
+      "deletingLabel": "Deleting...",
+      "cancelLabel": "Cancel",
+      "toast": {
+        "success": "Item deleted successfully",
+        "error": "Failed to delete item"
+      }
+    }
+  },
+  "lockers": {
+    "addDialog": {
+      "trigger": "Add Locker",
+      "title": "Add Locker",
+      "step": {
+        "info": "Locker Information",
+        "address": "Address",
+        "confirmation": "Confirmation"
+      },
+      "success": "Locker has been created successfully",
+      "error": "Failed to create locker",
+      "imageUploadDescription": "Upload locker image (optional)",
+      "documentUploadDescription": "Upload locker document (optional)",
+      "viewDocument": "View selected document",
+      "create": "Create Locker"
+    },
+    "editDialog": {
+      "title": "Edit Locker",
+      "success": "Locker has been updated successfully",
+      "error": "Failed to update locker"
+    },
+    "deleteDialog": {
+      "title": "Delete Locker",
+      "description": "Are you sure you want to delete locker {{code}}?",
+      "toast": {
+        "success": "Locker deleted successfully",
+        "error": "Failed to delete locker"
+      }
+    },
+    "fields": {
+      "customer": "Customer",
+      "status": "Status",
+      "code": "Locker Number",
+      "dynamicId": "Dynamic ID",
+      "password": "Locker Password",
+      "lockerNumberOptional": "Locker Number (Optional)",
+      "image": "Image",
+      "document": "Document",
+      "notes": "Notes (Optional)",
+      "zone": "Zone",
+      "zoneId": "Zone ID",
+      "address": "Address",
+      "lat": "Latitude",
+      "lng": "Longitude"
+    },
+    "status": {
+      "Inactive": "Inactive",
+      "Active": "Active",
+      "Requested": "Requested",
+      "Installed": "Installed"
+    },
+    "map": {
+      "title": "Lockers Geolocation",
+      "tabs": {
+        "map": "Map View",
+        "list": "List View"
+      },
+      "filters": {
+        "title": "Filters",
+        "zones": "Zones",
+        "drivers": "Drivers",
+        "customerStatus": "Customer Status",
+        "days": "Recurring Days",
+        "options": {
+          "active": "Active",
+          "suspended": "Suspended",
+          "sunTueThu": "Sun, Tue, Thu",
+          "satMonWed": "Sat, Mon, Wed"
+        }
+      },
+      "legend": {
+        "title": "Legend:",
+        "blue": "Sun, Tue, Thu",
+        "yellow": "Sat, Mon, Wed",
+        "orange": "Other Days",
+        "pink": "No Recurring",
+        "red": "Suspended"
+      },
+      "searchLocationPlaceholder": "Search for a location (e.g., 31.963158, 35.930359)...",
+      "noLockers": "No lockers to display",
+      "totalLockers": "Total Lockers: {{count}}",
+      "list": {
+        "columns": {
+          "customer": "Customer Name",
+          "dynamicId": "Dynamic ID",
+          "pickupOrder": "Pickup Order",
+          "dispatchedOrder": "Dispatched Order",
+          "address": "Address"
+        },
+        "noResults": "No orders found",
+        "pagination": {
+          "showing": "Showing {{from}} to {{to}} of {{total}} entries",
+          "page": "Page {{current}} of {{total}}"
+        }
+      },
+      "errors": {
+        "locationNotFound": "Location not found",
+        "emptyLocation": "Please enter both latitude and longitude",
+        "latRange": "The latitude must be between -90 and 90.",
+        "lngRange": "The longitude must be between -180 and 180.",
+        "invalidCoordinates": "Invalid coordinates"
+      },
+      "messages": {
+        "locationFound": "Location found"
+      }
+    }
+  },
+  "customer": {
+    "details": {
+      "tabs": {
+        "general": "General",
+        "bundle": "Bundle",
+        "sms": "SMS History",
+        "credit": "Credit",
+        "invoice": "Invoice"
+      },
+      "general": {
+        "title": "General Information"
+      },
+      "homeAddress": "Home Address",
+      "workAddress": "Work Address"
+    },
+    "summary": {
+      "currency": "SAR",
+      "freeze": "Freeze"
+    },
+    "membership": {
+      "status": {
+        "active": "Active",
+        "pending": "Pending",
+        "cancelled": "Cancelled",
+        "expired": "Expired"
+      }
+    },
+    "types": {
+      "Customer": "Customer",
+      "Walk-in": "Walk-in",
+      "Driver": "Driver",
+      "User": "User"
+    },
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "mobile": "Mobile",
+      "dynamic_id": "Dynamic ID",
+      "grace_period": "Grace Period (days)",
+      "status": "Status",
+      "password": "Password",
+      "password_confirmation": "Confirm Password",
+      "recurs": "Recur",
+      "home_zone": "Home Zone",
+      "work_zone": "Work Zone",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "amount": "Amount",
+      "notes": "Notes (optional)"
+    },
+    "bundle": {
+      "changed": "Bundle has been updated successfully",
+      "confirmDetach": "Are you sure you want to detach the bundle?",
+      "detached": "Bundle has been detached successfully",
+      "bundleId": "Bundle ID",
+      "next": "Next bundle is {{name}} starting from {{date}}",
+      "freezeConfirm": "Are you sure you want to update the freeze status for this customer?",
+      "current": {
+        "title": "Current Bundle Details"
+      },
+      "change": "Change",
+      "detach": "Detach",
+      "audit": {
+        "title": "Bundle Audit",
+        "columns": {
+          "date": "Date",
+          "name": "Name",
+          "period": "Service Period",
+          "price": "Price",
+          "upto": "Up To",
+          "extraItems": "Extra Items"
+        },
+        "empty": "No records found"
+      }
+    },
+    "credit": {
+      "added": "Credit has been added successfully",
+      "add": {
+        "title": "Add Credit"
+      },
+      "audit": {
+        "title": "Credit Audit",
+        "columns": {
+          "date": "Date",
+          "amount": "Amount",
+          "type": "Type",
+          "createdBy": "Created By",
+          "invoiceCode": "Invoice Code",
+          "balance": "Balance",
+          "note": "Note"
+        },
+        "empty": "No records found"
+      }
+    },
+    "sms": {
+      "title": "SMS History",
+      "message": "Message",
+      "date": "Date",
+      "empty": "No messages found"
+    },
+    "invoice": {
+      "title": "Invoices",
+      "dueDate": "Due Date",
+      "code": "Code",
+      "order": "Order",
+      "dueAmount": "Due Amount",
+      "actions": "Actions",
+      "empty": "No invoices found"
+    },
+    "statusOptions": {
+      "Active": "Active",
+      "Inactive": "Inactive",
+      "Pending": "Pending"
+    },
+    "recurs": {
+      "days": {
+        "Sun": "Sun",
+        "Mon": "Mon",
+        "Tue": "Tue",
+        "Wed": "Wed",
+        "Thu": "Thu",
+        "Fri": "Fri",
+        "Sat": "Sat"
+      }
+    },
+    "map": {
+      "selectZone": "Select Zone"
+    }
+  },
+  "upload": {
+    "button": "Upload",
+    "fileRejectedDescription": "\"{{name}}\" has been rejected"
+  }
+}
